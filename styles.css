@@ -1,0 +1,79 @@
+.main {
+    height: 750px;
+    margin-right:80px;
+    margin-left:80px;
+    font-size:20px;
+    color: #FFFFFF;
+}
+
+.main a {
+    margin-top: 1000px;
+    text-align: center
+}
+
+.top-box {
+    background-color: #000000;
+    overflow: hidden;
+    opacity: 75%;
+    border-radius: 10px 10px 5px 5px;
+    position: fixed;
+    width: 99%;
+}
+
+.top-box a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 48px;
+    height: 60px;
+}
+
+.top-box a:hover {
+    background-color: #363636;
+    color: white;
+}
+
+.top-box a.active {
+    background-color: #FFFFFF;
+    color: white;
+}
+
+.bottom-box {
+    background-color: #000000;
+    overflow: hidden;
+    border-radius: 5px 5px 10px 10px;
+    opacity: 60%;
+    bottom: 0;
+}
+
+.bottom-box a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.bottom-box a:hover {
+    background-color: #363636;
+}
+
+body {
+    background: url('bgvideo.mp4');
+    background-size: cover;
+}
+
+.bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+    filter: brightness(40%);
+}
